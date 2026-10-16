@@ -1,0 +1,46 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment Secrets & Credentials
+.env
+.env.*
+!.env.example
+*.key
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP & Laravel
+/backend_laravel/vendor/
+/backend_laravel/node_modules/
+/backend_laravel/public/storage
+/backend_laravel/storage/framework/cache/*
+/backend_laravel/storage/framework/sessions/*
+/backend_laravel/storage/framework/views/*
+/backend_laravel/storage/logs/*
+/backend_laravel/.phpunit.result.cache
+
+# Databases & Runtime State
+*.log
+*.sqlite
+*.sqlite3
+backend/database/*.json
+backend/database/*.sqlite
+backend_laravel/database/*.sqlite
+
+# C++ & Binaries
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.hex
+*.bin
+*.elf
+.pio/
+.vscode/
